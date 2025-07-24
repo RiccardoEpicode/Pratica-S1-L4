@@ -111,6 +111,11 @@ body {
     color: rgb(170, 32, 114);
 }
 
+.aTool{
+  color: rgb(1, 163, 205);
+  font-weight: bold;
+}
+
 /* TABELLE */
 
 table, th, td {
