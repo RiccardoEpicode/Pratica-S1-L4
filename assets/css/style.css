@@ -1,59 +1,55 @@
-/* IMPOSTAZIONI GENERALI */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+/*IMPOSTAZIONI GENERALI*/
 
 html,
 body {
-  width: 350px;
-  height: 858px;
-  margin: 0;
-  padding: 0;
-  overflow: scroll; 
-  border: 1px solid #ccc; 
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .backgroundImg {
   background-image: url("../images/sfondo.png");
+  padding: 2rem;
 }
 
-/* HEADER */
+/* HEADER  */
 
 .titleNav {
-  background-color: rgb(0, 129, 162);
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 102, 136, 1) 0%,
+    rgba(0, 153, 204, 1) 100%
+  );
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-weight: bold;
+  display: block;
+  padding: 20px;
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px;
 }
 
 .logo {
-  max-width: 100%;
-  height: auto;
+  width: 15.5rem;
 }
 
 .titolo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+  padding-top: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
 }
 
 .titolo p {
   font-size: 1rem;
   text-align: center;
   color: whitesmoke;
+}
+
+.navigation {
+  padding-top: 15px;
 }
 
 .navigation a {
@@ -65,159 +61,186 @@ body {
   list-style-type: none;
   padding-left: 0;
   font-size: 15px;
+  text-align: center;
 }
 
-/* MAIN */
+/* MAIN  */
 
 .centeredBox {
-  max-width: 800px; 
-  margin: 0 auto; 
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
   background-color: rgb(128, 105, 0);
   box-sizing: border-box;
 }
 
 .bigBox {
-   width: calc(100% - 20px);
   background-color: #ffffff;
-  display: inline-block;
-  padding: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  display: block;
+  border: 1px solid #000000;
+  padding: 15px;
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px;
 }
 
-/* ELEMENTI NEL MAIN - ARTICLE */
-
-.commonSpan{
- color: rgb(170, 32, 114);
+.titlePost {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
 }
 
-.iconBack{
-    background-color: rgb(201, 199, 199);
-    color: rgb(75, 74, 74);
+.iconBack {
+  background-color: rgb(160, 155, 155);
+  color: white;
+  padding: 0.2rem;
 }
 
-.clockBack{
-    color:rgb(75, 74, 74);
+.colorSottotitolo {
+  color: rgb(160, 155, 155);
 }
 
-.spanBack{
-    background-color: rgb(201, 199, 199);
+.pSpan {
+  padding: 1.5rem 0;
 }
 
-.selectSpan{
-    color: rgb(170, 32, 114);
+.commonSpan {
+  color: rgb(170, 32, 114);
+  font-weight: bold;
+}
+.listaDis {
+  list-style: inherit;
+  padding: 1.5rem;
 }
 
-.aTool{
-  color: rgb(1, 163, 205);
+.spanBack {
+  background-color: rgb(197, 192, 192);
+  line-height: normal;
+  border-radius: 6px;
+  padding: 0.15rem;
+}
+
+.listaOrd {
+  list-style: decimal;
+  padding: 1.5rem;
+}
+
+.selectSpan {
+  color: rgb(170, 32, 114);
   font-weight: bold;
 }
 
-/* TABELLE */
+/* TABELLA */
 
-table, th, td {
-  border: 1px solid rgb(54, 54, 54);
-  border-collapse: collapse;
+caption {
+  padding: 0.8rem;
+  font-style: italic;
+  font-weight: bold;
 }
 
-table th {
-  background-color: blue;
-  color: #ffffff;
+article {
+  padding: 20px 0;
 }
 
-.tdGrey{
-    background-color: #e2e1e1;
+.table,
+th,
+td {
+  border: 1px solid rgb(104, 140, 210);
+  padding: 0.5rem;
 }
 
-/* FORM */
+th {
+  background-color: rgb(51, 102, 204);
+}
 
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  margin-top: 20px;
+.tdGrey {
+  background-color: rgb(236, 232, 232);
+}
+
+.aTool {
+  color: rgb(0, 153, 204);
+  font-weight: bold;
+}
+
+/* ARTICLE */
+iframe {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.articlesBack {
+  background-color: rgb(221, 221, 222);
+}
+
+.articleTitle {
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.articleP {
+  text-align: center;
+  padding: 20px 0;
 }
 
 fieldset {
-  border: none;
-  padding: 0;
-  width: 100%;
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 20px;
 }
 
-input[type="email"] {
-  padding: 10px;
-  width: 100%;
-  max-width: 100%;
-  font-size: 1rem;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-button[type="submit"] {
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: rgb(29, 103, 240);
+fieldset button {
+  background-color: rgb(51, 102, 204);
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
-button[type="submit"]:hover {
-  background-color: #007a99;
+/* ARTICOLI */
+
+.relatedArticles {
+  text-align: center;
 }
 
-/* Video Youtube*/
-
-iframe {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  margin-top: 20px;
-  border-radius: 20px;
+.articlesBack2 {
+  background-color: rgb(221, 221, 222);
+  margin-bottom: 20px;
 }
 
-/* Article */
-
-.articlesBack{
-  background-color:rgb(201, 199, 199);
+.articlesBack2 a {
+  color: rgb(0, 153, 204);
+  font-weight: bold;
 }
 
-.articlesBack2{
-  background-color:rgb(201, 199, 199);
-  padding: 15px;
-}
-
-.startDate{
+.startDate {
   text-align: end;
 }
 
-
-/* FOOTER */
-.footerBox {
-  background-color: #005566;
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
+.relatedArticlesTitle {
+  font-weight: bold;
   margin-bottom: 10px;
-  padding: 20px;
-  box-sizing: border-box;
-  color: white;
 }
 
-.emailScuola{
-    color: rgb(233, 38, 188);
-    font-weight: bold;
-    text-decoration: none;
+/* FOOTER */
+
+.footerBox {
+  background: linear-gradient(
+    179deg,
+    rgba(0, 85, 102, 1) 0%,
+    rgba(34, 68, 68, 1) 50%,
+    rgba(42, 51, 56, 1) 100%
+  );
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px;
+}
+
+footer p {
+  padding: 1rem;
+}
+
+.emailScuola {
+  color: rgb(255, 0, 254);
 }
