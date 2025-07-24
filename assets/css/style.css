@@ -1,0 +1,214 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 350px;
+  height: 858px;
+  margin: 0;
+  padding: 0;
+  overflow: scroll; /* optional: hides scrollbars */
+  border: 1px solid #ccc; /* optional: helps visualize the boundary */
+}
+
+.backgroundImg {
+  background-image: url("../images/sfondo.png");
+}
+
+/* HEADER */
+
+.titleNav {
+  background-color: rgb(0, 129, 162);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.titolo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.titolo p {
+  font-size: 1rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 15px;
+}
+
+/* MAIN */
+
+.centeredBox {
+  max-width: 800px; /* puoi regolare */
+  margin: 0 auto; /* centra orizzontalmente */
+  padding: 20px;
+  background-color: rgb(128, 105, 0); /* o bianco o altro */
+  box-sizing: border-box;
+}
+
+.bigBox {
+   width: calc(100% - 20px);
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+.iconBack{
+    background-color: rgb(201, 199, 199);
+    color: rgb(75, 74, 74);
+}
+
+.clockBack{
+    color:rgb(75, 74, 74);
+}
+
+.spanBack{
+    background-color: rgb(201, 199, 199);
+}
+
+.selectSpan{
+    color: rgb(170, 32, 114);
+}
+
+/* TABELLE */
+
+table, th, td {
+  border: 1px solid rgb(54, 54, 54);
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: blue;
+  color: #ffffff;
+}
+
+.tdGrey{
+    background-color: #f8f8f8;
+}
+
+/* FORM */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: rgb(29, 103, 240);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #007a99;
+}
+
+/* Video Youtube*/
+
+iframe {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+/* Article */
+
+.articlesBack{
+  background-color:rgb(201, 199, 199);
+}
+
+.articlesBack2{
+  background-color:rgb(201, 199, 199);
+  padding: 15px;
+}
+
+.startDate{
+  text-align: end;
+}
+
+
+/* FOOTER */
+.footerBox {
+  background-color: #005566;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.emailScuola{
+    color: rgb(233, 38, 188);
+    font-weight: bold;
+    text-decoration: none;
+}
