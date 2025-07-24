@@ -13,8 +13,8 @@ body {
   height: 858px;
   margin: 0;
   padding: 0;
-  overflow: scroll; /* optional: hides scrollbars */
-  border: 1px solid #ccc; /* optional: helps visualize the boundary */
+  overflow: scroll; 
+  border: 1px solid #ccc; 
 }
 
 .backgroundImg {
@@ -70,10 +70,10 @@ body {
 /* MAIN */
 
 .centeredBox {
-  max-width: 800px; /* puoi regolare */
-  margin: 0 auto; /* centra orizzontalmente */
+  max-width: 800px; 
+  margin: 0 auto; 
   padding: 20px;
-  background-color: rgb(128, 105, 0); /* o bianco o altro */
+  background-color: rgb(128, 105, 0);
   box-sizing: border-box;
 }
 
