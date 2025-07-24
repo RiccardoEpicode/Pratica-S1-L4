@@ -90,6 +90,10 @@ body {
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
+.commonSpan{
+ color: rgb(170, 32, 114);
+}
+
 .iconBack{
     background-color: rgb(201, 199, 199);
     color: rgb(75, 74, 74);
